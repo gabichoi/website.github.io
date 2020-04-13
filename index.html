@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<title>Gabriela Choi Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="files/main.css" />
+	</head>
+	<body>
+		<!-- Navigation -->
+		<header id="header">
+			<nav id="nav">
+				<ul>
+					<a href="#intro">Intro</a>
+					<a href="#aboutme">About Me</a>
+					<a href="#education">Education</a>
+					<a href="#project">Projects</a>
+					<a href="#contact">Contact</a>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="container">
+			<!-- Section 1 -->
+			<div class="section1" id="intro">
+				<h1> Gabriela Choi </h1>
+				<h2> Software Engineer </h2>
+			</div>
+
+			<!-- Section 2 -->
+			<div class="section2" id="aboutme">
+				<div class="section2-img">
+					<img src="images/aboutme.png" height="510px">
+				</div>
+				<div class="section2-text">
+					<h3>About Me</h3>
+					<p>Hello! Thank you for stopping by my humble website. I appreciate your time and interest. My name is Gabi, and I am currently studying Computer Science and Cognitive Science at UC Berkeley.<br><br> This website was designed as a space that showcases my coding projects, while also reflecting my personality. Although coding costs me a lot of time and patience, joy and fun always come along the way.<br><br>  The time consuming lines become a labor of love for nothing gets me more excited than building, creating, and continuously learning how to program!<br></p>
+				</div>
+			</div>
+
+			<!-- Section 3 -->
+			<div class="section3" id="education">
+				<div class="section3-text">
+					<h3>Relevant Coursework</h3>
+					<p>Structure and Interpretation of Computer Programs (CS 61A)<br>Data Structures (CS 61B)<br>Machine Structures (CS 61C)<br>Discrete Mathematics and Probability (CS 70)<br>User Interface and Design (CS 160)<br>Efficient Algorithms and Intractable Problems (CS 170)<br>Databases (CS 186)<br>Artificial Intelligence (CS 188)<br></p>
+					<h3>Programming Skills</h3>
+					<p>Python | Java | C | SQL | Scheme | HTML | CSS | JavaScript</p>
+				</div>
+				<div class="section3-img">
+					<img src="images/education.png" height="510px">
+				</div>
+			</div>
+
+			<!-- Section 4 -->
+			<div class="section4" id="project">
+				<div class="section4-text">
+					<h3>Projects</h3>
+					<p>These are some of my favorite projects I worked on.</p>
+					<div class="gallery">
+						<article>
+							<div class="display">
+								<video autoplay muted loop width="510px"height="365px">
+									<source src="images/project1.mp4" type="video/mp4">
+								</video>
+					  			<div class="overlay">
+							    	<h4>Corody</h4>
+							    	<h5>Description:</h5>
+							  		<p>As orders of shelter-in-place amid COVID-19 outbreak were issued, two of my friends and I developed a donation website to help the homeless community in Berkeley. The platform consists of getting supplies and funding from users in order to build and share hygiene kits. </p>
+							    	<h5>Technical Features:</h5>
+							  		<p>HTML | CSS | PHP | Illustrator</p>			
+							  	</div>
+							</div>
+						</article>
+
+						<article>
+							<div class="display">
+								<video autoplay muted loop width="510px"height="365px">
+									<source src="images/project2.mp4" type="video/mp4">
+								</video>
+					  			<div class="overlay">
+							    	<h4>Cheep Cheep Stay Dry!</h4>
+							    	<h5>Description:</h5>
+							  		<p>First game I built from scratch! A collision dectecting square turned into a little chick avoiding collisions from raindrops. The level of difficulty increases in proportion with the user's score.Try to keep her dry!</p>
+							    	<h5>Technical Features:</h5>
+							  		<p>Python | Pygame | Illustrator</p>			
+							  	</div>
+							</div>
+						</article>
+
+					  	<article>
+							<div class="display">
+								<video autoplay muted loop width="510px"height="365px">
+									<source src="images/project3.mp4" type="video/mp4">
+								</video>
+						  		<div class="overlay">
+						    		<h4>Pacman AI</h4>
+						    		<h5>Description:</h5>
+							    	<p>A truly challenging project in which I learned AI strategies to make my Pacman agent "smarter" in its complex maze world. After 80 runs of trial-and-error, Pacman was fully trained to outwit the ghosts, as refelected in this recording. </p>
+							    	<h5>Technical Features:</h5>
+							  		<p>Python | Reinforcement Learning | Q-learning</p>			
+						  		</div>
+						  	</div>
+						</article>
+
+						<article>
+							<div class="display">
+								<video autoplay muted loop width="510px"height="365px">
+									<source src="images/project4.mp4" type="video/mp4">
+								</video>
+						  		<div class="overlay">
+							    	<h4>BearMaps</h4>
+							    	<h5>Description:</h5>
+							    	<p>In this project I built the back-end of a web application that supports an interactive map of Berkeley. The application can handle features such as autocompleting query responses, zooming in and out, and finding the shortest path between two locations.</p>
+							    	<h5>Technical Features:</h5>		
+									<p>Java | Open Street Maps API | Trie DFS | A* Algorithm</p>		
+						  		</div>
+						  	</div>
+						</article>
+
+						
+						
+					</div>
+				</div>
+			</div>
+
+			<!-- Section 5 -->
+			<div class="section5" id="contact">
+				<div class="section5-text">
+					<h3>Contact Me</h3>
+					<p>Would love to hear from you!</p>
+					<form method="post" name="submission" action="files/main.php">
+						<div class="template">
+							<div class="field half">
+								<input type="text" name="name" placeholder="Your name">
+							</div>
+							<div class="field half">
+								<input type="email" name="email" placeholder="Your email">
+							</div>
+							<div class="field">
+								<textarea name="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
